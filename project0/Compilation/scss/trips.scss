@@ -1,0 +1,87 @@
+$padding-bottom: 5%;
+
+blockquote.blockquote { text-align: center;
+                        padding-bottom: $padding-bottom; }
+
+.table { padding-left: 15%;
+         padding-right: 15%;
+         padding-top: 3%;
+         padding-bottom: $padding-bottom;
+         text-align: center; }
+
+.container {padding-bottom: $padding-bottom;}
+
+
+
+
+footer.information { font-size: 12px;
+                     text-align:center;
+                     line-height: 15px;
+
+                     #images_online { text-decoration: underline; }
+
+                     }
+
+
+
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.img-responsive { width: 100%;
+                  margin: auto;
+                  display: block; }
+
+
+@media
+only screen and (max-width: 768px)  {
+
+table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	thead tr {
+		display: none;
+	}
+
+	tr { border: 1px solid gray; }
+
+	td {
+		border: none;
+		border-bottom: 1px solid lightgrey;
+		position: relative;
+		padding-left: 50%;
+	}
+
+    .destination::before {
+        content: "Destination:  ";
+    }
+
+    .country::before {
+        content: "Country:  ";
+    }
+
+    .visit::before {
+        content: "Best Time to Visit:   ";
+    }
+
+    .budget::before {
+        content: "Budget:   ";
+    }
+
+    .airport::before {
+        content: "Recommended Airport:  ";
+    }
+
+    .lgbt::before {
+        content: "LGBT-friendly:    ";
+    }
+}

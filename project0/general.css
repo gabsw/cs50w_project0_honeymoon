@@ -1,0 +1,18 @@
+h1 { color: #333333;
+     font-family: 'Bitter', serif;
+     font-size: 50px;
+     font-weight: normal;
+     line-height: 54px;
+     padding-top: 5%;
+     padding-bottom:2%;
+     text-align: center; }
+
+footer.information { font-size: 12px;
+                     text-align:center;
+                     line-height: 15px; }
+
+main, p.intro-trip { font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+                     font-size: 20px;
+                     padding-left: 15%;
+                     padding-right: 15%;
+                     text-align: justify; }
